@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714E6C2F1FD94E620041D38F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E6C2E1FD94E620041D38F /* AppDelegate.m */; };
+		714E6C321FD94E620041D38F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E6C311FD94E620041D38F /* ViewController.m */; };
+		714E6C351FD94E620041D38F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714E6C331FD94E620041D38F /* Main.storyboard */; };
+		714E6C371FD94E620041D38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714E6C361FD94E620041D38F /* Assets.xcassets */; };
+		714E6C3A1FD94E620041D38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714E6C381FD94E620041D38F /* LaunchScreen.storyboard */; };
+		714E6C3D1FD94E620041D38F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E6C3C1FD94E620041D38F /* main.m */; };
+		714E6C4A1FD94EA30041D38F /* XDateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E6C441FD94EA30041D38F /* XDateInputView.m */; };
+		714E6C4B1FD94EA30041D38F /* UITextField+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E6C461FD94EA30041D38F /* UITextField+Shake.m */; };
+		714E6C4C1FD94EA30041D38F /* XInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 714E6C471FD94EA30041D38F /* XInputTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		714E6C2A1FD94E610041D38F /* XDateInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDateInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714E6C2D1FD94E610041D38F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		714E6C2E1FD94E620041D38F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		714E6C301FD94E620041D38F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		714E6C311FD94E620041D38F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		714E6C341FD94E620041D38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		714E6C361FD94E620041D38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		714E6C391FD94E620041D38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		714E6C3B1FD94E620041D38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714E6C3C1FD94E620041D38F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		714E6C441FD94EA30041D38F /* XDateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDateInputView.m; sourceTree = "<group>"; };
+		714E6C451FD94EA30041D38F /* UITextField+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Shake.h"; sourceTree = "<group>"; };
+		714E6C461FD94EA30041D38F /* UITextField+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Shake.m"; sourceTree = "<group>"; };
+		714E6C471FD94EA30041D38F /* XInputTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XInputTextField.m; sourceTree = "<group>"; };
+		714E6C481FD94EA30041D38F /* XDateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDateInputView.h; sourceTree = "<group>"; };
+		714E6C491FD94EA30041D38F /* XInputTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XInputTextField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714E6C271FD94E610041D38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714E6C211FD94E610041D38F = {
+			isa = PBXGroup;
+			children = (
+				714E6C2C1FD94E610041D38F /* XDateInputView */,
+				714E6C2B1FD94E610041D38F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714E6C2B1FD94E610041D38F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714E6C2A1FD94E610041D38F /* XDateInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714E6C2C1FD94E610041D38F /* XDateInputView */ = {
+			isa = PBXGroup;
+			children = (
+				714E6C431FD94E7F0041D38F /* XDateInputView */,
+				714E6C2D1FD94E610041D38F /* AppDelegate.h */,
+				714E6C2E1FD94E620041D38F /* AppDelegate.m */,
+				714E6C301FD94E620041D38F /* ViewController.h */,
+				714E6C311FD94E620041D38F /* ViewController.m */,
+				714E6C331FD94E620041D38F /* Main.storyboard */,
+				714E6C361FD94E620041D38F /* Assets.xcassets */,
+				714E6C381FD94E620041D38F /* LaunchScreen.storyboard */,
+				714E6C3B1FD94E620041D38F /* Info.plist */,
+				714E6C3C1FD94E620041D38F /* main.m */,
+			);
+			path = XDateInputView;
+			sourceTree = "<group>";
+		};
+		714E6C431FD94E7F0041D38F /* XDateInputView */ = {
+			isa = PBXGroup;
+			children = (
+				714E6C481FD94EA30041D38F /* XDateInputView.h */,
+				714E6C441FD94EA30041D38F /* XDateInputView.m */,
+				714E6C451FD94EA30041D38F /* UITextField+Shake.h */,
+				714E6C461FD94EA30041D38F /* UITextField+Shake.m */,
+				714E6C491FD94EA30041D38F /* XInputTextField.h */,
+				714E6C471FD94EA30041D38F /* XInputTextField.m */,
+			);
+			path = XDateInputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714E6C291FD94E610041D38F /* XDateInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714E6C401FD94E620041D38F /* Build configuration list for PBXNativeTarget "XDateInputView" */;
+			buildPhases = (
+				714E6C261FD94E610041D38F /* Sources */,
+				714E6C271FD94E610041D38F /* Frameworks */,
+				714E6C281FD94E610041D38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDateInputView;
+			productName = XDateInputView;
+			productReference = 714E6C2A1FD94E610041D38F /* XDateInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714E6C221FD94E610041D38F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = canoe;
+				TargetAttributes = {
+					714E6C291FD94E610041D38F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 714E6C251FD94E610041D38F /* Build configuration list for PBXProject "XDateInputView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714E6C211FD94E610041D38F;
+			productRefGroup = 714E6C2B1FD94E610041D38F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714E6C291FD94E610041D38F /* XDateInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714E6C281FD94E610041D38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714E6C3A1FD94E620041D38F /* LaunchScreen.storyboard in Resources */,
+				714E6C371FD94E620041D38F /* Assets.xcassets in Resources */,
+				714E6C351FD94E620041D38F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714E6C261FD94E610041D38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714E6C4A1FD94EA30041D38F /* XDateInputView.m in Sources */,
+				714E6C4C1FD94EA30041D38F /* XInputTextField.m in Sources */,
+				714E6C321FD94E620041D38F /* ViewController.m in Sources */,
+				714E6C3D1FD94E620041D38F /* main.m in Sources */,
+				714E6C2F1FD94E620041D38F /* AppDelegate.m in Sources */,
+				714E6C4B1FD94EA30041D38F /* UITextField+Shake.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		714E6C331FD94E620041D38F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714E6C341FD94E620041D38F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		714E6C381FD94E620041D38F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714E6C391FD94E620041D38F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714E6C3E1FD94E620041D38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		714E6C3F1FD94E620041D38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714E6C411FD94E620041D38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62J9RVU398;
+				INFOPLIST_FILE = XDateInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = canoe.XDateInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		714E6C421FD94E620041D38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62J9RVU398;
+				INFOPLIST_FILE = XDateInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = canoe.XDateInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714E6C251FD94E610041D38F /* Build configuration list for PBXProject "XDateInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714E6C3E1FD94E620041D38F /* Debug */,
+				714E6C3F1FD94E620041D38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714E6C401FD94E620041D38F /* Build configuration list for PBXNativeTarget "XDateInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714E6C411FD94E620041D38F /* Debug */,
+				714E6C421FD94E620041D38F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714E6C221FD94E610041D38F /* Project object */;
+}
