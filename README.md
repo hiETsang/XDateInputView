@@ -2,8 +2,8 @@
 一个生日日期输入框，仿照Tinder注册生日的输入，具有时间限制的效果。
 
 
-![](README/README/EF84BCAC-0967-4768-B157-D776A1C3C59E.png)
-![](README/README/D134BF5E-A4BD-4B05-9447-1A758D920AA1.png)
+![](http://7xs4dk.com1.z0.glb.clouddn.com/IMG_8229.PNG)
+![](http://7xs4dk.com1.z0.glb.clouddn.com/IMG_8230.PNG)
 
 Tinder的生日日期输入不同于其他的app的滚轮选择，他选择了输入的方式，感觉操作起来更加舒服一些，有点好奇它的实现过程，便照着写了一个，有些项目可能会有需要。
 
